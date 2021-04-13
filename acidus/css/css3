@@ -1,0 +1,16 @@
+.shadow {
+ -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+ -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+img:hover {
+ transform: scale(1.25);
+ -webkit-transform: scale(1.25);
+ -moz-transform: scale(1.25);
+ -o-transform: scale(1.25);
+ position: relative;
+ z-index: 5;
+ transition: transform 0.5s linear;
+ -webkit-transition: -webkit-transform 0.5s linear;
+ -moz-transition: -moz-transform 0.5s linear;
+ -o-transition: -o-transform 0.5s linear;
+}
